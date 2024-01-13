@@ -22,7 +22,7 @@ const VideoContainer = () => {
   };
 
   return videos.length === 0 ? (
-    <h1>loading..........</h1>
+    <h1>loading......</h1>
   ) : (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
       {videos.map((video) => (
