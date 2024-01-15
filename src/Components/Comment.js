@@ -2,10 +2,10 @@ import React from "react";
 import { FaUser } from "react-icons/fa";
 
 const Comment = ({ data }) => {
-  const { name, text, replies } = data;
+  const { name, text } = data;
   return (
-    <div class="flex items-center  bg-slate-100 m-4 rounded-lg w-full">
-      <div className="bg-blue-400 p-4 m-4 rounded-full my-4">
+    <div class="flex items-center bg-slate-100 m-4 rounded-lg w-full">
+      <div className="bg-blue-400 p-3 m-4 rounded-full my-4">
         <FaUser className="text-xl" />
       </div>
       <div className="ml-3">
