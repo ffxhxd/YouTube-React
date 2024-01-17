@@ -1,1 +1,1 @@
-Full youtube app using react and Google yt apis
+Full youtube app using react and Google  apis
